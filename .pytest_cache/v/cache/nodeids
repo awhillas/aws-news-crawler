@@ -1,0 +1,3 @@
+[
+  "tests/test_feeds.py::test_ingest_rss"
+]

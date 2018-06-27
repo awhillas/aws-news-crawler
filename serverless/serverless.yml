@@ -1,0 +1,189 @@
+service: aws-news-crawler
+
+frameworkVersion: ">=1.24.1 <2.0.0"
+
+plugins:
+  - serverless-offline-python
+  - serverless-python-requirements
+
+provider:
+  name: aws
+  region: eu-west-1
+  runtime: python3.6
+  stage: ${opt:stage, self:custom.defaultStage}
+  profile: ${self:custom.profiles.${self:provider.stage}}
+
+  tags:
+    owner: alexander.whillas@mynewsdesk.com
+    project: mnd-crawler
+
+  environment:
+    PAGE_BUCKET: "${self:custom.pageBucket}"
+
+  iamRoleStatements:
+    - Effect: Allow
+      Action:
+        - SNS:Publish
+      Resource: { "Fn::Join" : ["", ["arn:aws:sns:${self:provider.region}:", { "Ref" : "AWS::AccountId" }, ":${self:custom.onAddRssTopic}" ] ]  }
+    - Effect: Allow
+      Action:
+        - SNS:Publish
+      Resource: { "Fn::Join" : ["", ["arn:aws:sns:${self:provider.region}:", { "Ref" : "AWS::AccountId" }, ":${self:custom.onAddPageTopic}" ] ]  }
+    - Effect: Allow
+      Action:
+        - sqs:*
+      Resource:
+        Fn::GetAtt: [ RssQueue, Arn ]
+    - Effect: Allow
+      Action:
+        - sqs:*
+      Resource:
+        Fn::GetAtt: [ PageQueue, Arn ]
+    - Effect: Allow
+      Action:
+        - s3:*
+      Resource: "arn:aws:s3:::${self:custom.pageBucket}"
+    - Effect: Allow
+      Action:
+        - dynamodb:*
+      Resource: { "Fn::Join" : [":", ["arn:aws:dynamodb:${self:provider.region}", { "Ref" : "AWS::AccountId" }, "*" ] ]  }
+
+custom:
+  defaultStage: dev
+  profiles:
+    dev: mnd-development
+    prod: mnd-production
+  onAddRssTopic: "${self:service}-on-add-rss-topic-${self:provider.stage}"
+  onAddPageTopic: "${self:service}-on-add-page-topic-${self:provider.stage}"
+  pageBucket: "mnd-${self:service}-pages-${opt:stage, self:provider.stage}"
+  dynamodbFeedTable: "mnd-${self:service}-rss-urls-${opt:stage, self:provider.stage}"
+  dynamodbPageTable: "mnd-${self:service}-page-urls-${opt:stage, self:provider.stage}"
+
+#   addUrlEndPoint > {Rss,Page}Queue (SQS) < pollUrlQueue > ingest{Rss,Page}
+functions:
+
+  # RSS Feed queue + consumer
+
+  addRssEndPoint:
+    handler: handler.add_url
+    description: Web interface to add an RSS feed to the RSS Processing Queue via API Gateway
+    events:
+      - http:
+          path: add_rss
+          method: post
+    environment:
+      QUEUE_URL:
+        Ref: RssQueue
+      DYNAMODB_TABLE: ${self:custom.dynamodbFeedTable}
+
+  pollRssQueue:
+    handler: handler.poll_url_queue
+    description: Polls the RssQueue for new urls and dispatches a onNewRss SNS event
+    events:
+      - schedule: rate(1 minute)
+    environment:
+      QUEUE_URL:
+        Ref: RssQueue
+      TOPIC_ARN: { "Fn::Join" : ["", ["arn:aws:sns:${self:provider.region}:", { "Ref" : "AWS::AccountId" }, ":${self:custom.onAddRssTopic}" ] ]  }
+
+  ingestRss:
+    handler: handler.ingest_rss
+    description: Processes the RSS URL adding the pages to the PageQueue for page ingestion
+    events:
+      - sns: ${self:custom.onAddRssTopic}
+    environment:
+      QUEUE_URL:
+        Ref: PageQueue
+
+  # Page Feed queue + consumer
+
+  addPageEndPoint:
+    handler: handler.add_url
+    description: Web interface to add an RSS feed to the RSS Processing Queue via API Gateway
+    events:
+      - http:
+          path: add_page
+          method: post
+    environment:
+      QUEUE_URL:
+        Ref: PageQueue
+      DYNAMODB_TABLE: "${self:custom.dynamodbPageTable}"
+
+  addPage:
+    handler: handler.add_url_sns
+    description: Web interface to add an RSS feed to the RSS Processing Queue via SNS
+    events:
+      - http:
+          path: add_page
+          method: post
+    environment:
+      QUEUE_URL:
+        Ref: PageQueue
+      DYNAMODB_TABLE: "${self:custom.dynamodbPageTable}"
+
+  pollPageQueue:
+    handler: handler.poll_url_queue
+    description: Polls the PageQueue for new urls and dispatches a onNewRss SNS event
+    events:
+      - schedule: rate(1 minute)
+    environment:
+      QUEUE_URL:
+        Ref: PageQueue
+      TOPIC_ARN: { "Fn::Join" : ["", ["arn:aws:sns:${self:provider.region}:", { "Ref" : "AWS::AccountId" }, ":${self:custom.onAddPageTopic}" ] ]  }
+
+  ingestPage:
+    handler: handler.ingest_page
+    description: Processes the Webpage URL adding the pages to S3 for further processing (Spark?)
+    events:
+      - sns: ${self:custom.onAddPageTopic}
+
+  processPage:
+    handler: handler.process_page
+    events:
+      - s3:
+          bucket: ${self:custom.pageBucket}
+          event: s3:ObjectCreated:*
+          rules:
+            - suffix: .html
+
+resources:
+  Resources:
+    RssQueue:
+      Type: AWS::SQS::Queue
+
+    PageQueue:
+      Type: AWS::SQS::Queue
+
+    FeedsDynamoDbTable:
+      Type: 'AWS::DynamoDB::Table'
+      DeletionPolicy: Retain
+      Properties:
+        AttributeDefinitions:
+          -
+            AttributeName: url
+            AttributeType: S
+        KeySchema:
+          -
+            AttributeName: url
+            KeyType: HASH
+        ProvisionedThroughput:
+          ReadCapacityUnits: 1
+          WriteCapacityUnits: 1
+        TableName: "${self:custom.dynamodbFeedTable}"
+
+    PagesDynamoDbTable:
+      Type: 'AWS::DynamoDB::Table'
+      DeletionPolicy: Retain
+      Properties:
+        AttributeDefinitions:
+          -
+            AttributeName: url
+            AttributeType: S
+        KeySchema:
+          -
+            AttributeName: url
+            KeyType: HASH
+        ProvisionedThroughput:
+          ReadCapacityUnits: 1
+          WriteCapacityUnits: 1
+        TableName: "${self:custom.dynamodbPageTable}"

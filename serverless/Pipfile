@@ -1,0 +1,34 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+boto3 = "*"
+bs4 = "*"
+lxml = "*"
+feedfinder2 = "*"
+feedparser = "*"
+readability-lxml = "*"
+requests = "*"
+url-normalize = "*"
+user-agent = "*"
+validators = "*"
+
+# Dragnet dependancies
+#Cython = ">=0.21.1"
+#scikit-learn = "*"
+#numpy = "*"
+#scipy = "*"
+#ftfy = ">=4.1.0,<5.0.0"
+#dragnet = {git = "https://github.com/seomoz/dragnet.git"}
+
+[dev-packages]
+pylint = "*"
+pytest = "*"
+pytest-env = "*"
+rope = "*"
+ipython = "*"
+
+[requires]
+python_version = "3.6"
