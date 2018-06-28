@@ -24,11 +24,13 @@ validators = "*"
 #dragnet = {git = "https://github.com/seomoz/dragnet.git"}
 
 [dev-packages]
+ipython = "*"
 pylint = "*"
 pytest = "*"
 pytest-env = "*"
 rope = "*"
-ipython = "*"
+moto = "*"
+responses = "*"
 
 [requires]
 python_version = "3.6"

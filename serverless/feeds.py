@@ -29,7 +29,7 @@ def ingest_aggregator_rss(url):
 	if 'entries' in feed:
 		for item in feed['entries']:
 			link = urlparse(item['link'])
-			if link.netloc == rss.netloc:
+			if link.netloc == feed.netloc:
 				all_links_are_external = False
 				break
 

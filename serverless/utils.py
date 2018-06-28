@@ -1,6 +1,7 @@
 import json
 import logging
 import os
+import re
 import sys
 import time
 from pprint import pformat
@@ -8,6 +9,11 @@ from pprint import pprint as pp
 
 import boto3
 
+S3_SAVE_CHARS = re.compile(r"[^0-9a-zA-Z\!\-\_\.\*\'\(\)]", re.IGNORECASE)
+
+def s3_key_name_sanitiser(key):
+	out = re.sub(r'^https?:\/\/', '', key)
+	return re.sub(S3_SAVE_CHARS, '-', out)
 
 def sqs_send(client, data):
 	""" Expects JSON in the shape of: {"url": "http://feeds.bbci.co.uk/news/rss.xml"}

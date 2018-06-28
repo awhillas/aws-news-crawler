@@ -1,0 +1,969 @@
+<?xml version="1.0"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:nyt="http://www.nytimes.com/namespaces/rss/2.0" version="2.0">
+  <channel>
+    <title>NYT &gt; Home Page</title>
+    <link>http://www.nytimes.com/pages/index.html?partner=rss&amp;emc=rss</link>
+    <atom:link rel="self" type="application/rss+xml" href="http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml"/>
+    <description/>
+    <language>en-us</language>
+    <copyright>Copyright 2018  The New York Times Company</copyright>
+    <lastBuildDate>Thu, 28 Jun 2018 09:47:18 GMT </lastBuildDate>
+    <image>
+      <title>NYT &gt; Home Page</title>
+      <url>https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png</url>
+      <link>http://www.nytimes.com/pages/index.html?partner=rss&amp;emc=rss</link>
+    </image>
+    <item>
+      <title>Supreme Court Justice Anthony Kennedy Will Retire</title>
+      <link>https://www.nytimes.com/2018/06/27/us/politics/anthony-kennedy-retire-supreme-court.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/06/27/us/politics/anthony-kennedy-retire-supreme-court.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/06/27/us/politics/anthony-kennedy-retire-supreme-court.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/06/28/us/politics/28dc-kennedy-letter/28dc-kennedy-letter-moth-v7.jpg" medium="image" height="151" width="151"/>
+      <media:description>Justice Anthony M. Kennedy sent a letter to President Trump announcing his retirement from the Supreme Court.</media:description>
+      <media:credit/>
+      <description>The announcement gives President Trump the opportunity to create a solid five-member conservative majority and fundamentally change the direction of the court.</description>
+      <dc:creator>MICHAEL D. SHEAR</dc:creator>
+      <pubDate>Thu, 28 Jun 2018 04:43:54 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Kennedy, Anthony M</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Supreme Court (US)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Appointments and Executive Changes</category>
+    </item>
+    <item>
+      <title>News Analysis: In Influence if Not in Title, This Has Been the Kennedy Court</title>
+      <link>https://www.nytimes.com/2018/06/27/us/politics/anthony-kennedy-career.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/06/27/us/politics/anthony-kennedy-career.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/06/27/us/politics/anthony-kennedy-career.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/06/28/us/politics/28dc-kennedy-1/28dc-kennedy-1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Justice Anthony M. Kennedy in 2015. He has served on the Supreme Court for more than 30 years.</media:description>
+      <media:credit>Gabriella Demczuk for The New York Times</media:credit>
+      <description>Justice Anthony M. Kennedy occupied a place at the court&#x2019;s ideological center for his entire tenure, with his vote often the crucial one in closely divided cases.</description>
+      <dc:creator>ADAM LIPTAK</dc:creator>
+      <pubDate>Thu, 28 Jun 2018 00:53:26 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Appointments and Executive Changes</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Abortion</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Same-Sex Marriage, Civil Unions and Domestic Partnerships</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Supreme Court (US)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Kennedy, Anthony M</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Courts and the Judiciary</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Gorsuch, Neil M</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Roberts, John G Jr</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Scalia, Antonin</category>
+    </item>
+    <item>
+      <title>News Analysis: Anthony Kennedy&#x2019;s Exit May Echo for Generations</title>
+      <link>https://www.nytimes.com/2018/06/27/us/politics/trump-supreme-court-legacy.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/06/27/us/politics/trump-supreme-court-legacy.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/06/27/us/politics/trump-supreme-court-legacy.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/06/28/us/politics/28DC-ASSESS/28DC-ASSESS-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>By replacing the retiring Justice Anthony M. Kennedy, right, President Trump has a chance to cement his legacy by adding another solidly conservative justice to the Supreme Court alongside his first choice, Neil M. Gorsuch, center.</media:description>
+      <media:credit>Stephen Crowley/The New York Times</media:credit>
+      <description>Despite President Trump&#x2019;s rocky tenure, his opportunity to reshape the Supreme Court may allow him to go down in history as an unusually influential president.</description>
+      <dc:creator>CHARLIE SAVAGE</dc:creator>
+      <pubDate>Thu, 28 Jun 2018 00:29:45 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Supreme Court (US)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Gorsuch, Neil M</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Appointments and Executive Changes</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Courts and the Judiciary</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Conservatism (US Politics)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Senate</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Kennedy, Anthony M</category>
+    </item>
+    <item>
+      <title>McConnell Promises Fall Vote to Confirm Next Supreme Court Justice</title>
+      <link>https://www.nytimes.com/2018/06/27/us/politics/mcconnell-supreme-court-vote.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/06/27/us/politics/mcconnell-supreme-court-vote.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/06/27/us/politics/mcconnell-supreme-court-vote.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/06/28/us/politics/28DC-HULSE-01/28DC-HULSE-01-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Another Trump-appointed justice would be a crowning judicial triumph for Senator Mitch McConnell, the majority leader, who led the blockade against President Barack Obama&#x2019;s nominee in 2016.</media:description>
+      <media:credit>Erin Schaff for The New York Times</media:credit>
+      <description>Justice Anthony M. Kennedy&#x2019;s retirement throws the volatile issue of a Supreme Court confirmation to the Senate, and Democrats have little power to stop it.</description>
+      <dc:creator>CARL HULSE</dc:creator>
+      <pubDate>Wed, 27 Jun 2018 23:01:11 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Elections, House of Representatives</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Elections, Senate</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Senate</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Supreme Court (US)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Collins, Susan M</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">McConnell, Mitch</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Kennedy, Anthony M</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Democratic Party</category>
+    </item>
+    <item>
+      <title>The Front-Runners and Full List of Potential Supreme Court Nominees</title>
+      <link>https://www.nytimes.com/2018/06/27/us/politics/trump-list-supreme-court-nominees.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/06/27/us/politics/trump-list-supreme-court-nominees.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/06/27/us/politics/trump-list-supreme-court-nominees.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/06/28/us/politics/28DC-TRUMPLIST-01/28DC-TRUMPLIST-01-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>President Trump spoke from the Oval Office on Wednesday.</media:description>
+      <media:credit>Doug Mills/The New York Times</media:credit>
+      <description>The president has said he intends to choose his next Supreme Court nominee from a list he began compiling during the 2016 campaign.</description>
+      <dc:creator>THE NEW YORK TIMES</dc:creator>
+      <pubDate>Wed, 27 Jun 2018 23:33:26 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
+    </item>
+    <item>
+      <title>Europe Edition: Supreme Court, Migration, Poland: Your Thursday Briefing</title>
+      <link>https://www.nytimes.com/2018/06/27/briefing/supreme-court-migration-poland.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/06/27/briefing/supreme-court-migration-poland.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/06/27/briefing/supreme-court-migration-poland.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/06/28/world/0628-Euro-brief-slide-0NTI/0628-Euro-brief-slide-0NTI-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit>Doug Mills/The New York Times</media:credit>
+      <description>Here&#x2019;s what you need to know to start your day.</description>
+      <dc:creator>DAN LEVIN and MATTHEW SEDACCA</dc:creator>
+      <pubDate>Thu, 28 Jun 2018 06:57:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>Supreme Court Ruling Delivers a Sharp Blow to Labor Unions</title>
+      <link>https://www.nytimes.com/2018/06/27/us/politics/supreme-court-unions-organized-labor.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/06/27/us/politics/supreme-court-unions-organized-labor.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/06/27/us/politics/supreme-court-unions-organized-labor.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/06/28/us/28scotus-union/28scotus-union-moth-v2.jpg" medium="image" height="151" width="151"/>
+      <media:description>Mark Janus, center, who sued his public sector union, outside the Supreme Court today with Gov. Bruce Rauner of Illinois.</media:description>
+      <media:credit>Andrew Harnik/Associated Press</media:credit>
+      <description>The court ruled that government workers cannot be required to pay for collective bargaining, which could cost public unions tens of millions of dollars.</description>
+      <dc:creator>ADAM LIPTAK</dc:creator>
+      <pubDate>Wed, 27 Jun 2018 17:20:01 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Organized Labor</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Collective Bargaining</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Government Employees</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">American Federation of State, County and Municipal Employees</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Supreme Court (US)</category>
+    </item>
+    <item>
+      <title>News Analysis: Labor Unions Will Be Smaller After Supreme Court Decision, but Maybe Not Weaker</title>
+      <link>https://www.nytimes.com/2018/06/27/business/economy/supreme-court-unions-future.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/06/27/business/economy/supreme-court-unions-future.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/06/27/business/economy/supreme-court-unions-future.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/06/22/business/00LABOR-1/00LABOR-1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>A crowd listening to Senator Elizabeth Warren, Democrat of Massachusetts, at a rally in support of unionized workers outside a Boston firehouse in February. The rally was held to coincide with the Supreme Court arguments in a challenge to public-sector unions.</media:description>
+      <media:credit>Cj Gunther/European Pressphoto Agency</media:credit>
+      <description>The ruling could cost public-sector unions more than a million members. But the ones who stay could make labor more powerful.</description>
+      <dc:creator>NOAM SCHEIBER</dc:creator>
+      <pubDate>Wed, 27 Jun 2018 20:07:35 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Organized Labor</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Government Employees</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Labor and Jobs</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">American Federation of State, County and Municipal Employees</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">American Federation of Teachers</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Service Employees International Union</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Supreme Court (US)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Decisions and Verdicts</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Prices (Fares, Fees and Rates)</category>
+    </item>
+    <item>
+      <title>What the Janus Decision Means for Teacher Unions</title>
+      <link>https://www.nytimes.com/2018/06/27/us/teacher-unions-fallout-supreme-court-janus.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/06/27/us/teacher-unions-fallout-supreme-court-janus.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/06/27/us/teacher-unions-fallout-supreme-court-janus.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/06/18/us/00janusteacheres-01/00janusteacheres-01-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Arizona teachers protested in April in a statewide walkout, one of several this year. The walkout movement offered a glimmer of hope for teachers&#x2019; unions, which lost the right to collect agency fees.</media:description>
+      <media:credit>Matt York/Associated Press</media:credit>
+      <description>Teachers&#x2019; unions could lose up to a third of their members and funding as a result of the Supreme Court ruling, labor experts say.</description>
+      <dc:creator>DANA GOLDSTEIN and ERICA L. GREEN</dc:creator>
+      <pubDate>Wed, 27 Jun 2018 23:47:12 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Education (K-12)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Organized Labor</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Teachers and School Employees</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Labor and Jobs</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Supreme Court (US)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">National Education Assn</category>
+    </item>
+    <item>
+      <title>With One Win, Alexandria Ocasio-Cortez Emerges as a Political Star</title>
+      <link>https://www.nytimes.com/2018/06/27/nyregion/alexandria-ocasio-cortez-bio-profile.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/06/27/nyregion/alexandria-ocasio-cortez-bio-profile.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/06/27/nyregion/alexandria-ocasio-cortez-bio-profile.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/06/28/nyregion/28profile22/merlin_140384889_bc3ba23c-103c-4aa7-8943-862707510745-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>If Ms. Ocasio-Cortez defeats her Republican opponent in November, she, at 28, would be the youngest woman ever elected to Congress.</media:description>
+      <media:credit>Annie Tritt for The New York Times</media:credit>
+      <description>Ms. Ocasio-Cortez has been a waitress, a community activist and a campaign organizer for Bernie Sanders. Now she is a political rock star.</description>
+      <dc:creator>ANDY NEWMAN, VIVIAN WANG and LUIS FERR&#xC9;-SADURN&#xCD;</dc:creator>
+      <pubDate>Thu, 28 Jun 2018 01:30:49 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Ocasio-Cortez, Alexandria</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Elections, House of Representatives</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Primaries and Caucuses</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Democratic Socialists of America</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">House of Representatives</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Bronx (NYC)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">New York City</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">New York State</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Puerto Ricans</category>
+    </item>
+    <item>
+      <title>Alexandria Ocasio-Cortez: I&#x2019;m &#x2018;Unapologetic About What I Believe&#x2019;</title>
+      <link>https://www.nytimes.com/video/us/politics/100000005978658/alexandria-ocasio-cortez-on-her-upset-victory.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/video/us/politics/100000005978658/alexandria-ocasio-cortez-on-her-upset-victory.html</guid>
+      <description>The Bronx native spoke about her campaign&#x2019;s mission a day after she shook up the Democratic Party with her defeat of Representative Joseph Crowley.</description>
+      <dc:creator/>
+      <pubDate>Wed, 27 Jun 2018 21:05:39 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/nyt_per">Ocasio-Cortez, Alexandria</category>
+    </item>
+    <item>
+      <title>An Upset in the Making: Why Joe Crowley Never Saw Defeat Coming</title>
+      <link>https://www.nytimes.com/2018/06/27/nyregion/ocasio-cortez-crowley-primary-upset.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/06/27/nyregion/ocasio-cortez-crowley-primary-upset.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/06/27/nyregion/ocasio-cortez-crowley-primary-upset.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/06/28/nyregion/28crowley-autopsy01/28crowley-autopsy01-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Representative Joseph Crowley, at a news conference in Washington last week, had not faced a Democratic primary since his congressional district was redrawn to include a section of the Bronx.</media:description>
+      <media:credit>Erin Schaff for The New York Times</media:credit>
+      <description>No one factor caused Mr. Crowley&#x2019;s loss. Demographics, generational change and an aggressive grass-roots campaign by his opponent all were factors.</description>
+      <dc:creator>SHANE GOLDMACHER</dc:creator>
+      <pubDate>Thu, 28 Jun 2018 01:22:17 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Elections, House of Representatives</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Crowley, Joseph</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Ocasio-Cortez, Alexandria</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">New York City</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Queens (NYC)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">New York State</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Democratic Party</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Primaries and Caucuses</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Midterm Elections (2018)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">United States Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Race and Ethnicity</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Bronx (NYC)</category>
+    </item>
+    <item>
+      <title>In Volgograd, It&#x2019;s Stalin Who Lurks on the Sideline </title>
+      <link>https://www.nytimes.com/2018/06/27/sports/world-cup/stalin-volgograd-russia.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/06/27/sports/world-cup/stalin-volgograd-russia.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/06/27/sports/world-cup/stalin-volgograd-russia.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/06/28/sports/28stalingrad-print2/28stalingrad-web01-sub-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Joseph Stalin's bust at a museum commemorating the Battle of Stalingrad. Stalin is inescapable in Volgograd. </media:description>
+      <media:credit/>
+      <description>The World Cup will depart Volgograd on Thursday after a final first-round game in this city along the Volga River. What will remain are all the echoes of the past.</description>
+      <dc:creator>SARAH LYALL and MAXIM BABENKO</dc:creator>
+      <pubDate>Wed, 27 Jun 2018 21:34:47 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">World War II (1939-45)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Stalin, Joseph</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Volgograd (Russia)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">World Cup (Soccer)</category>
+    </item>
+    <item>
+      <title>Germany Crashes Out of World Cup With a Loss to South Korea</title>
+      <link>https://www.nytimes.com/2018/06/27/sports/world-cup/germany-vs-south-korea.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/06/27/sports/world-cup/germany-vs-south-korea.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/06/27/sports/world-cup/germany-vs-south-korea.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/06/28/sports/28ger-kor14/28ger-kor14-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Thomas M&#xFC;ller of Germany was dejected as Germany lost to South Korea on Wednesday.</media:description>
+      <media:credit>Alexander Hassenstein/Getty Images,</media:credit>
+      <description>South Korea stunned Germany with a 2-0 victory on Wednesday, knocking the defending champion out of the World Cup.</description>
+      <dc:creator>CHRISTOPHER CLAREY</dc:creator>
+      <pubDate>Thu, 28 Jun 2018 01:08:21 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">World Cup 2018 (Soccer)</category>
+    </item>
+    <item>
+      <title>&#x2018;Never Do This to a Woman&#x2019;: Men Harass 2 Sports Reporters at the World Cup</title>
+      <link>https://www.nytimes.com/2018/06/27/sports/female-broadcasters-world-cup-harassment.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/06/27/sports/female-broadcasters-world-cup-harassment.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/06/27/sports/female-broadcasters-world-cup-harassment.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/06/28/nyregion/28xp-harassment-PRINT/28xp-harassment-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Julieth Gonz&#xE1;lez Ther&#xE1;n, who works for the Spanish language division of the German broadcaster Deutsche Welle, was approached by a man this month while broadcasting live from Moscow.</media:description>
+      <media:credit>Deutsche Welle</media:credit>
+      <description>Two widely viewed videos show one reporter being kissed and grabbed, and another reporter dodging a man&#x2019;s advances.</description>
+      <dc:creator>CHRISTINA CARON</dc:creator>
+      <pubDate>Wed, 27 Jun 2018 21:05:51 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Women and Girls</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Julieth Gonzalez Theran</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Julia Guimaraes</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Sexual Harassment</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Athletics and Sports</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">News and News Media</category>
+    </item>
+    <item>
+      <title>Trump and Putin Will Hold Summit Meeting, Officials Say</title>
+      <link>https://www.nytimes.com/2018/06/27/world/europe/bolton-moscow-putin-trump.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/06/27/world/europe/bolton-moscow-putin-trump.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/06/27/world/europe/bolton-moscow-putin-trump.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/06/28/world/28Bolton-refer/28Bolton-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>President Vladimir V. Putin of Russia, left, with John R. Bolton, President Trump&#x2019;s national security adviser, on Wednesday at the Kremlin.</media:description>
+      <media:credit>Alexander Zemlianichenko/Kremlin, via Sputnik</media:credit>
+      <description>The gathering has worried some European allies, who fear it could overshadow a NATO summit meeting and President Trump&#x2019;s visit to Britain in mid-July.</description>
+      <dc:creator>MARK LANDLER and ANDREW E. KRAMER</dc:creator>
+      <pubDate>Wed, 27 Jun 2018 23:32:09 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">North Atlantic Treaty Organization</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Group of Seven</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Bolton, John R</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Peskov, Dmitri S</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Putin, Vladimir V</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Helsinki (Finland)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Moscow (Russia)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Washington (DC)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Ukraine</category>
+    </item>
+    <item>
+      <title>As Summit Nears, NATO Allies Have One Main Worry: Trump</title>
+      <link>https://www.nytimes.com/2018/06/26/world/europe/trump-nato-summit-g-7.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/06/26/world/europe/trump-nato-summit-g-7.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/06/26/world/europe/trump-nato-summit-g-7.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/06/27/world/27nato-trump1-sub/27nato-trump1-sub-moth-v2.jpg" medium="image" height="151" width="151"/>
+      <media:description>After his angry performance with fellow Group of 7 leaders, allies fear that President Trump will deliver a noisy, divisive NATO summit meeting next month.</media:description>
+      <media:credit>Al Drago for The New York Times</media:credit>
+      <description>After the fiasco of the Group of 7 meeting, where the president publicly criticized allies, NATO countries dread a similar performance, helping Russia.</description>
+      <dc:creator>STEVEN ERLANGER</dc:creator>
+      <pubDate>Tue, 26 Jun 2018 22:48:38 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">North Atlantic Treaty Organization</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">United States Defense and Military Forces</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Defense and Military Forces</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Putin, Vladimir V</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Russia</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">European Union</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Europe</category>
+    </item>
+    <item>
+      <title>In Eastern Europe, U.S. Military Girds Against Russian Might and Manipulation</title>
+      <link>https://www.nytimes.com/2018/06/27/us/politics/american-allies-russia-baltics-poland-hybrid-warfare.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/06/27/us/politics/american-allies-russia-baltics-poland-hybrid-warfare.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/06/27/us/politics/american-allies-russia-baltics-poland-hybrid-warfare.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/06/24/world/europe/dc-military-slide-SN1J/dc-military-slide-SN1J-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>To practice their ability to move quickly in a crisis and sustain themselves along the way, American troops recently drove 950 vehicles about 840 miles from their base in Vilseck, Germany, to a training range in southern Lithuania &#x2014; roughly the distance from New York to Atlanta.</media:description>
+      <media:credit>Laetitia Vancon for The New York Times</media:credit>
+      <description>American soldiers and allies, on a military exercise in Poland and Lithuania, are ramping up to thwart Russian cyberattacks and information warfare.</description>
+      <dc:creator>ERIC SCHMITT</dc:creator>
+      <pubDate>Thu, 28 Jun 2018 04:52:38 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Russian Interference in 2016 US Elections and Ties to Trump Associates</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">United States Defense and Military Forces</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Cyberwarfare and Defense</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Social Media</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">North Atlantic Treaty Organization</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">United States Army</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Baltic Region</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Poland</category>
+    </item>
+    <item>
+      <title>BULLETIN BOARD: Our International Report Becomes a Bit More Modern</title>
+      <link>https://www.nytimes.com/2018/06/27/reader-center/international-dispatches-journals.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/06/27/reader-center/international-dispatches-journals.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/06/27/reader-center/international-dispatches-journals.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/06/28/world/28Readers-dispatch-sub2/28Readers-dispatch-sub2-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Azam Ahmed, a New York Times correspondent, reporting from Mexico. Our international desk wants to give readers a sense of being there on the ground with our correspondents.</media:description>
+      <media:credit>Daniel Berehulak for The New York Times</media:credit>
+      <description>Journals have long been a way for The Times&#x2019;s foreign correspondents to bring readers with them as they explore a distant land. But they have needed a reboot, our international editor writes.</description>
+      <dc:creator>MICHAEL SLACKMAN</dc:creator>
+      <pubDate>Wed, 27 Jun 2018 14:17:59 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">New York Times</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">News and News Media</category>
+    </item>
+    <item>
+      <title>With Kennedy Gone, Justice Must Be Won at the Ballot Box</title>
+      <link>https://www.nytimes.com/2018/06/27/opinion/anthony-kennedy-retirement-supreme-court.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/06/27/opinion/anthony-kennedy-retirement-supreme-court.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/06/27/opinion/anthony-kennedy-retirement-supreme-court.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/06/28/nyregion/28thu1/28thu1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Judge Neil Gorsuch and Justice Anthony Kennedy during the swearing-in ceremony of Judge Gorsuch to the Supreme Court on April 10, 2017.</media:description>
+      <media:credit>T.J. Kirkpatrick/Bloomberg</media:credit>
+      <description>Strengthening America&#x2019;s other democratic institutions has never been more important.</description>
+      <dc:creator>THE EDITORIAL BOARD</dc:creator>
+      <pubDate>Thu, 28 Jun 2018 00:10:16 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Supreme Court (US)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Kennedy, Anthony M</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+    </item>
+    <item>
+      <title>We&#x2019;re About to Find Out How Bad It Will Get Without Justice Kennedy</title>
+      <link>https://www.nytimes.com/2018/06/27/opinion/kennedy-retire-supreme-court-trump.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/06/27/opinion/kennedy-retire-supreme-court-trump.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/06/27/opinion/kennedy-retire-supreme-court-trump.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/06/28/opinion/28Bazelon/28Bazelon-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Anthony Kennedy, who announced his retirement on Wednesday after 30 years on the Supreme Court.</media:description>
+      <media:credit>Manuel Balce Ceneta/Associated Press</media:credit>
+      <description>He provided a crucial fifth vote to the court&#x2019;s conservative wing, but he sometimes voted against it, especially on abortion.</description>
+      <dc:creator>EMILY BAZELON</dc:creator>
+      <pubDate>Thu, 28 Jun 2018 00:24:02 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Abortion</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Supreme Court (US)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Kennedy, Anthony M</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Roberts, John G Jr</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+    </item>
+    <item>
+      <title>Editorial: After Janus, Unions Must Save Themselves</title>
+      <link>https://www.nytimes.com/2018/06/27/opinion/janus-supreme-court-unions.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/06/27/opinion/janus-supreme-court-unions.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/06/27/opinion/janus-supreme-court-unions.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/06/28/opinion/28thu2/28thu2-moth-v3.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit>Cristina Span&#xF2;</media:credit>
+      <description>The Supreme Court&#x2019;s decision imperils public-sector unions. Whether they survive will be up to them.</description>
+      <dc:creator>THE EDITORIAL BOARD</dc:creator>
+      <pubDate>Wed, 27 Jun 2018 21:07:50 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Organized Labor</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Collective Bargaining</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Government Employees</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">States (US)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Supreme Court (US)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Alito, Samuel A Jr</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Strikes</category>
+    </item>
+    <item>
+      <title>Op-Ed Columnist: Trump Remakes America</title>
+      <link>https://www.nytimes.com/2018/06/27/opinion/anthony-kennedy-supreme-court.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/06/27/opinion/anthony-kennedy-supreme-court.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/06/27/opinion/anthony-kennedy-supreme-court.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/06/28/opinion/28blowWeb/28blowWeb-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>A Trump supporter outside the Supreme Court on Tuesday.</media:description>
+      <media:credit>Win Mcnamee/Getty Images</media:credit>
+      <description>With Justice Anthony Kennedy retiring, Trump gets his legacy.</description>
+      <dc:creator>CHARLES M. BLOW</dc:creator>
+      <pubDate>Thu, 28 Jun 2018 02:51:00 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Courts and the Judiciary</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Russian Interference in 2016 US Elections and Ties to Trump Associates</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Conservatism (US Politics)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Patient Protection and Affordable Care Act (2010)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Supreme Court (US)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Kennedy, Anthony M</category>
+    </item>
+    <item>
+      <title>Why Do We Value Country Folk More Than City People?</title>
+      <link>https://www.nytimes.com/2018/06/27/opinion/republicans-democrats-trump-urban-rural.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/06/27/opinion/republicans-democrats-trump-urban-rural.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/06/27/opinion/republicans-democrats-trump-urban-rural.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/06/27/opinion/27wilkinson3/27wilkinson3-moth-v2.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit>Illustration by Jeffrey Henson Scales; photographs by Paul D. Van Hoy II/Age Fotostock and Toshi Sasaki, via Photolibrary, via Getty Images</media:credit>
+      <description>Our politics are cracking up over the density divide.</description>
+      <dc:creator>WILL WILKINSON</dc:creator>
+      <pubDate>Wed, 27 Jun 2018 18:30:04 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">State Legislatures</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Immigration and Emigration</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Urban Areas</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Federal Taxes (US)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Elections, House of Representatives</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">United States Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Rural Areas</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Constitution (US)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Asylum, Right of</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Deferred Action for Childhood Arrivals</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Mayors</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Federal-State Relations (US)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Democratic Party</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Homeland Security Department</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">House of Representatives</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Immigration and Customs Enforcement (US)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">United States</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">California</category>
+    </item>
+    <item>
+      <title>Janus Decision Reins in Unions&#x2019; Political Power</title>
+      <link>https://www.nytimes.com/2018/06/27/opinion/janus-supreme-court-scotus-afscme-agency-fees-public-union.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/06/27/opinion/janus-supreme-court-scotus-afscme-agency-fees-public-union.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/06/27/opinion/janus-supreme-court-scotus-afscme-agency-fees-public-union.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/06/27/opinion/27disalvo/27disalvo-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Construction workers and union members at a rally in New York's Columbus Circle, in May.</media:description>
+      <media:credit>Drew Angerer/Getty Images</media:credit>
+      <description>Public employee unions have too much influence in some states. The Supreme Court&#x2019;s ruling will take them down a peg.</description>
+      <dc:creator>DANIEL DISALVO</dc:creator>
+      <pubDate>Wed, 27 Jun 2018 17:00:00 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Organized Labor</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Government Employees</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">First Amendment (US Constitution)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Freedom of Speech and Expression</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Supreme Court (US)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Alito, Samuel A Jr</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">United States</category>
+    </item>
+    <item>
+      <title>How the Supreme Court Replaced One Injustice With Another</title>
+      <link>https://www.nytimes.com/2018/06/27/opinion/supreme-court-travel-ban-korematsu-japanese-internment.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/06/27/opinion/supreme-court-travel-ban-korematsu-japanese-internment.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/06/27/opinion/supreme-court-travel-ban-korematsu-japanese-internment.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/06/27/opinion/27korematsu/27korematsu-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Japanese-Americans arriving at the Manzanar internment camp &#x2014; one of 10 such camps established during World War II &#x2014; in Owens Valley, Calif., in 1942.</media:description>
+      <media:credit>Eliot Elisofon/The LIFE Picture Collection, via Getty Images</media:credit>
+      <description>My father, Fred Korematsu, would have been upset that the court overturned his case only to uphold President Trump&#x2019;s travel ban.</description>
+      <dc:creator>KAREN KOREMATSU</dc:creator>
+      <pubDate>Thu, 28 Jun 2018 03:47:05 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Executive Orders and Memorandums</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Immigration and Emigration</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Korematsu v United States (Supreme Court Decision)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Japanese-Americans</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Supreme Court (US)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Korematsu, Fred</category>
+    </item>
+    <item>
+      <title>Donald Trump&#x2019;s Worst Nightmare</title>
+      <link>https://www.nytimes.com/video/opinion/100000005935596/donald-trumps-worst-nightmare.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/video/opinion/100000005935596/donald-trumps-worst-nightmare.html</guid>
+      <description>&#x201C;Sometimes you&#x2019;re not in the mood to shake hands with everybody.&#x201D;</description>
+      <dc:creator/>
+      <pubDate>Mon, 25 Jun 2018 15:16:16 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/des">Immigration and Emigration</category>
+    </item>
+    <item>
+      <title>Op-Ed Columnist: How, Exactly, Does This Travel Ban Keep Us Safe, Mr. President?</title>
+      <link>https://www.nytimes.com/2018/06/27/opinion/trump-travel-ban-terrorism.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/06/27/opinion/trump-travel-ban-terrorism.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/06/27/opinion/trump-travel-ban-terrorism.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/06/27/nyregion/27stephens/27stephens-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Two bombs exploded near the Boston Marathon finish line on April 15, 2013.</media:description>
+      <media:credit>Ben Thorndike/Ben Thorndike, via Associated Press</media:credit>
+      <description>The illusion of security, purchased at an exorbitant cost to America&#x2019;s moral reputation.</description>
+      <dc:creator>BRET STEPHENS</dc:creator>
+      <pubDate>Wed, 27 Jun 2018 18:55:28 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Terrorism</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">September 11 (2001)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">San Bernardino, Calif, Shooting (2015)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Oak Creek, Wis, Shooting (2012)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Manhattan, NY, Attack (October, 2017)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Olympic Games (1996)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Boston Marathon Bombings (2013)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Fort Hood Shooting (2009)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_keyword">2001 anthrax attacks</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_keyword">Oklahoma City bombing</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_keyword">shoe bomber</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_keyword">underwear bomber</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_keyword">Orlando Pulse nightclub killings</category>
+    </item>
+    <item>
+      <title>Can Raya Install a Wondrous Utopia While Also Helping Celebrities Hook Up?</title>
+      <link>https://www.nytimes.com/2018/06/27/style/raya-dating-app.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/06/27/style/raya-dating-app.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/06/27/style/raya-dating-app.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/06/19/fashion/00raya1/00raya1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>An app man in his native environment. </media:description>
+      <media:credit>Kendrick Brinson for The New York Times</media:credit>
+      <description>The founder of an exclusive dating app is stepping forward for the first time. His next project? Making our society more ideal.</description>
+      <dc:creator>KEVIN ROOSE</dc:creator>
+      <pubDate>Wed, 27 Jun 2018 20:40:33 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Raya App LLC</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Online Dating</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Social Media</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Gendelman, Daniel</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Mobile Applications</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Celebrities</category>
+    </item>
+    <item>
+      <title>Benicio Del Toro, Hollywood&#x2019;s Instant Antihero, Goes the Distance</title>
+      <link>https://www.nytimes.com/2018/06/27/movies/benicio-del-toro-sicario-day-of-the-soldado.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/06/27/movies/benicio-del-toro-sicario-day-of-the-soldado.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/06/27/movies/benicio-del-toro-sicario-day-of-the-soldado.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/07/01/arts/01benicio-del-toro2/01benicio-del-toro2-moth-v3.jpg" medium="image" height="151" width="151"/>
+      <media:description>If it's a choice between breaking a stereotype or taking a good part, he'll take the part, adding, &#x201C;I have my own life &#x2014; I can make sure to break the stereotype there.&#x201D;</media:description>
+      <media:credit>Jody Rogac for The New York Times</media:credit>
+      <description>The economical actor has burned brightly in all his films, from &#x201C;The Usual Suspects&#x201D; to &#x201C;The Last Jedi.&#x201D; Now, with an action franchise and a mini-series, he&#x2019;s learning to linger.</description>
+      <dc:creator>REGGIE UGWU</dc:creator>
+      <pubDate>Wed, 27 Jun 2018 08:00:05 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Movies</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Actors and Actresses</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Del Toro, Benicio</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Sicario: Day of the Soldado (Movie)</category>
+    </item>
+    <item>
+      <title>Books of The Times: Going for Broke, the Middle Class Goes Broke</title>
+      <link>https://www.nytimes.com/2018/06/27/books/review-squeezed-alissa-quart.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/06/27/books/review-squeezed-alissa-quart.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/06/27/books/review-squeezed-alissa-quart.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/06/28/arts/28bookquart1/28bookquart1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit>Alessandra Montalto/The New York Times</media:credit>
+      <description>&#x201C;Squeezed: Why Our Families Can&#x2019;t Afford America,&#x201D; by Alissa Quart, is a timely book about the increasing number of people who feel profound economic vulnerability.</description>
+      <dc:creator>JENNIFER SZALAI</dc:creator>
+      <pubDate>Wed, 27 Jun 2018 17:39:42 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Squeezed: Why Our Families Cant Afford America (Book)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Quart, Alissa</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Books and Literature</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Economic Conditions and Trends</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Labor and Jobs</category>
+    </item>
+    <item>
+      <title>Trump, at Rally, Vows to Carry On Anthony Kennedy&#x2019;s Legacy With Court Pick</title>
+      <link>https://www.nytimes.com/2018/06/27/us/politics/trump-north-dakota-rally-supreme-court.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/06/27/us/politics/trump-north-dakota-rally-supreme-court.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/06/27/us/politics/trump-north-dakota-rally-supreme-court.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/06/28/us/28trumprally/28trumprally-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>President Trump on Wednesday at a political rally in Fargo, N.D., where he said he wanted to pick a Supreme Court nominee who could spend at least 40 years on the bench.</media:description>
+      <media:credit>Tom Brenner/The New York Times</media:credit>
+      <description>At a rally in North Dakota, the president celebrated an indisputable political trophy as he tries to drum up support for Republicans before the midterm elections.</description>
+      <dc:creator>KATIE ROGERS</dc:creator>
+      <pubDate>Thu, 28 Jun 2018 03:04:03 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Midterm Elections (2018)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Supreme Court (US)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Cramer, Kevin</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Heitkamp, Heidi</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Kennedy, Anthony M</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Elections, Senate</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Fargo (ND)</category>
+    </item>
+    <item>
+      <title>Netherlands Approves Partial Ban on Face Coverings</title>
+      <link>https://www.nytimes.com/2018/06/27/world/europe/netherlands-face-covering-ban.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/06/27/world/europe/netherlands-face-covering-ban.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/06/27/world/europe/netherlands-face-covering-ban.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/06/28/us/28xp-burqa2/28xp-burqa2-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>A woman wearing a burqa walked past the Palace of Justice in The Hague in 2014. The Dutch parliament&#x2019;s Upper House approved on Tuesday a partial ban on face coverings in some public areas, a spokesman said.</media:description>
+      <media:credit>Jerry Lampen/Agence France-Presse &#x2014; Getty Images</media:credit>
+      <description>The law, approved by the Dutch parliament&#x2019;s Upper House on Tuesday, also bans ski masks and helmets, but it would directly affect some Muslim women.</description>
+      <dc:creator>CHRISTINE HAUSER and LIAM STACK</dc:creator>
+      <pubDate>Thu, 28 Jun 2018 08:38:48 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Muslim Veiling</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Women and Girls</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Muslims and Islam</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">University of Amsterdam</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Wilders, Geert</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Netherlands</category>
+    </item>
+    <item>
+      <title>Immigration Lawyer Broke Her Foot When ICE Officer Pushed Her, She Says</title>
+      <link>https://www.nytimes.com/2018/06/27/us/ice-immigration-attorney-broken-foot.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/06/27/us/ice-immigration-attorney-broken-foot.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/06/27/us/ice-immigration-attorney-broken-foot.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/06/27/autossell/-28xp-ice-1/-28xp-ice-1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Andrea Martinez, a Kansas City immigration lawyer, said she fractured her foot after being pushed to the ground by an Immigration and Customs Enforcement officer.</media:description>
+      <media:credit>Andrea Martinez</media:credit>
+      <description>The lawyer said she was trying to follow her client, an undocumented 3-year-old boy, into an agency building in Kansas City, Mo., to reunite him with his mother before they were deported.</description>
+      <dc:creator>MIHIR ZAVERI</dc:creator>
+      <pubDate>Wed, 27 Jun 2018 20:49:10 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Illegal Immigration</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Immigration and Emigration</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Immigration Detention</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Deportation</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Immigration and Customs Enforcement (US)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Kansas City (Mo)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">United States</category>
+    </item>
+    <item>
+      <title>Hills Ablaze Above Manchester as U.K. Wildfire Rages for 4th Day</title>
+      <link>https://www.nytimes.com/2018/06/27/world/europe/uk-fire-manchester-saddleworth.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/06/27/world/europe/uk-fire-manchester-saddleworth.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/06/27/world/europe/uk-fire-manchester-saddleworth.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/06/28/world/28UK-fire1/28UK-fire1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Wildfire swept across the moors near Manchester, England, on Tuesday.</media:description>
+      <media:credit>Anthony Devlin/Getty Images</media:credit>
+      <description>Firefighters sought military help to fight a blaze across seven miles of countryside on the edge of one of England&#x2019;s most populous urban areas.</description>
+      <dc:creator>PALKO KARASZ</dc:creator>
+      <pubDate>Wed, 27 Jun 2018 15:53:19 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Wildfires</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Manchester (England)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Weather</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Saddleworth Moor</category>
+    </item>
+    <item>
+      <title>A Seismic Change in Predicting How Earthquakes Will Shake Tall Buildings</title>
+      <link>https://www.nytimes.com/2018/06/27/us/california-earthquakes-building-safety.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/06/27/us/california-earthquakes-building-safety.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/06/27/us/california-earthquakes-building-safety.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/06/28/us/28earthquakes-01/28earthquakes-01-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Researchers on Wednesday reported that decades of calculations used to construct tall buildings in earthquake-prone areas like Los Angeles significantly underestimated the shaking expected to occur.</media:description>
+      <media:credit>Monica Almeida forThe New York Times</media:credit>
+      <description>Seismologists say shaking from earthquakes in some West Coast cities will be much stronger than previously thought.</description>
+      <dc:creator>THOMAS FULLER</dc:creator>
+      <pubDate>Wed, 27 Jun 2018 23:13:41 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Earthquakes</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Engineering and Engineers</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Accidents and Safety</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Buildings (Structures)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">California</category>
+    </item>
+    <item>
+      <title>As Cameroon English Speakers Fight to Break Away, Violence Mounts</title>
+      <link>https://www.nytimes.com/2018/06/28/world/africa/cameroon-secession.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/06/28/world/africa/cameroon-secession.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/06/28/world/africa/cameroon-secession.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/06/28/world/28cameroon1/28cameroon1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>A market in Bamenda, Cameroon, last November after a homemade bomb exploded overnight.</media:description>
+      <media:credit>Agence France-Presse &#x2014; Getty Images</media:credit>
+      <description>Some of the Central African country&#x2019;s Anglophones want to found a country called Ambazonia. The French-speaking government is deeply opposed.</description>
+      <dc:creator>DIONNE SEARCEY</dc:creator>
+      <pubDate>Thu, 28 Jun 2018 04:05:06 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Cameroon</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Secession and Independence Movements</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">English Language</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">French Language</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Demonstrations, Protests and Riots</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Biya, Paul</category>
+    </item>
+    <item>
+      <title>House Rejects Immigration Overhaul Despite Trump&#x2019;s Late Plea</title>
+      <link>https://www.nytimes.com/2018/06/27/us/politics/trump-immigration-house-vote.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/06/27/us/politics/trump-immigration-house-vote.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/06/27/us/politics/trump-immigration-house-vote.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/06/28/us/politics/28DC-CONG-01/28DC-CONG-01-moth-v2.jpg" medium="image" height="151" width="151"/>
+      <media:description>On Wednesday, President Trump used Twitter to implore House Republicans to pass immigration legislation that would toughen border security. The vote failed 121 to 301.</media:description>
+      <media:credit>Doug Mills/The New York Times</media:credit>
+      <description>Divided House Republicans failed to pass legislation to protect the young undocumented immigrants known as Dreamers, fund a border wall and make significant changes to legal immigration.</description>
+      <dc:creator>THOMAS KAPLAN</dc:creator>
+      <pubDate>Wed, 27 Jun 2018 23:32:19 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Law and Legislation</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Illegal Immigration</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Immigration and Emigration</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">House of Representatives</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Border Barriers</category>
+    </item>
+    <item>
+      <title>California Banning Soda Taxes? A New Industry Strategy Is Stunning Some Lawmakers</title>
+      <link>https://www.nytimes.com/2018/06/27/upshot/california-banning-soda-taxes-a-new-industry-strategy-is-stunning-some-lawmakers.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/06/27/upshot/california-banning-soda-taxes-a-new-industry-strategy-is-stunning-some-lawmakers.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/06/27/upshot/california-banning-soda-taxes-a-new-industry-strategy-is-stunning-some-lawmakers.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/06/27/upshot/00up-soda1/00up-soda1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>&#x201C;The soda industry has gone completely rogue,&#x201D; said Scott Wiener, a state senator.</media:description>
+      <media:credit>Justin Sullivan/Getty Images</media:credit>
+      <description>The bill to pre-empt taxes is part of a wider industry effort to skip cities and go straight to the states.</description>
+      <dc:creator>ANAHAD O&#x2019;CONNOR and MARGOT SANGER-KATZ</dc:creator>
+      <pubDate>Wed, 27 Jun 2018 21:40:41 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Soft Drinks</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Sales and Excise Taxes</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Law and Legislation</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">States (US)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">American Beverage Assn</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">California</category>
+    </item>
+    <item>
+      <title>China Extends Lead as Most Prolific Supercomputer Maker</title>
+      <link>https://www.nytimes.com/2018/06/25/technology/china-supercomputers.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/06/25/technology/china-supercomputers.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/06/25/technology/china-supercomputers.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/06/25/us/25chinacompute1-print/25chinacompute-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>The Sunway TaihuLight supercomputer when it was introduced in Wuxi, China, last December. At the time, it was the fastest computer in the world.</media:description>
+      <media:credit>Imaginechina, via Associated Press</media:credit>
+      <description>China&#x2019;s corporations and its government made 206 of the world&#x2019;s 500 fastest machines, moving further ahead of the number made in the United States.</description>
+      <dc:creator>STEVE LOHR</dc:creator>
+      <pubDate>Mon, 25 Jun 2018 07:00:04 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Supercomputers</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">China</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">United States</category>
+    </item>
+    <item>
+      <title>How to Clean Your Filthy, Disgusting Laptop</title>
+      <link>https://www.nytimes.com/2018/06/26/smarter-living/how-to-clean-your-filthy-disgusting-laptop.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/06/26/smarter-living/how-to-clean-your-filthy-disgusting-laptop.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/06/26/smarter-living/how-to-clean-your-filthy-disgusting-laptop.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/06/25/smarter-living/sl_dirtylaptop/sl_dirtylaptop-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit>Eden Weingart</media:credit>
+      <description>Like any tool we use every day, our laptops accumulate dust, grime, oils from our skin and who knows what else. Yours is probably due for a cleaning, and here&#x2019;s how to do it right.</description>
+      <dc:creator>WHITSON GORDON</dc:creator>
+      <pubDate>Tue, 26 Jun 2018 18:17:58 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Computers and the Internet</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Laptop Computers</category>
+    </item>
+    <item>
+      <title>Ever Felt Jealous of a Friend&#x2019;s Achievement? Here&#x2019;s How to Get Around It</title>
+      <link>https://www.nytimes.com/2018/06/25/smarter-living/ever-felt-jealous-of-a-friends-accomplishment-heres-how-to-get-around-it.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/06/25/smarter-living/ever-felt-jealous-of-a-friends-accomplishment-heres-how-to-get-around-it.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/06/25/smarter-living/ever-felt-jealous-of-a-friends-accomplishment-heres-how-to-get-around-it.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/06/25/us/25newsletter/25newsletter-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>High school students work on a four-hour philosophy dissertation for the general baccalaureat exam for university entry in Strasbourg, France, this month.</media:description>
+      <media:credit>Frederick Florin/Agence France-Presse &#x2014; Getty Images</media:credit>
+      <description>The eternal war between pride and jealousy.</description>
+      <dc:creator>TIM HERRERA</dc:creator>
+      <pubDate>Tue, 26 Jun 2018 20:28:11 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Cookware</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Cooking and Cookbooks</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Kitchens</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Summer (Season)</category>
+    </item>
+    <item>
+      <title>Getting to the Bottom of &#x2018;Thrift Store Smell&#x2019;</title>
+      <link>https://www.nytimes.com/2018/06/21/smarter-living/thrift-store-smells.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/06/21/smarter-living/thrift-store-smells.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/06/21/smarter-living/thrift-store-smells.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/06/23/smarter-living/23sl_thriftsmells/21sl_thriftsmells-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit>Henrique Campe&#xE3;</media:credit>
+      <description>Have you noticed that every thrift store and neighborhood Goodwill smells the same? And that the clothes also smell the same? With the help of science, we got to the root of why. (And we have tips to help you get rid of it.)</description>
+      <dc:creator>JOLIE KERR</dc:creator>
+      <pubDate>Thu, 21 Jun 2018 16:46:28 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Smells and Odors</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Thrift Shops</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Fashion and Apparel</category>
+    </item>
+    <item>
+      <title>How to Plan the Perfect Trip With Your Significant Other This Summer</title>
+      <link>https://www.nytimes.com/2018/06/20/smarter-living/how-to-plan-the-perfect-trip-with-your-significant-other-this-summer.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/06/20/smarter-living/how-to-plan-the-perfect-trip-with-your-significant-other-this-summer.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/06/20/smarter-living/how-to-plan-the-perfect-trip-with-your-significant-other-this-summer.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/06/22/autossell/20sl_sigotravel/20sl_sigotravel-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit>Amrita Marino</media:credit>
+      <description>Make sure your bae-cation is one to remember &#x2014; without the logistical headaches.</description>
+      <dc:creator>ANNA GOLDFARB</dc:creator>
+      <pubDate>Wed, 20 Jun 2018 06:00:01 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Budget Travel</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Travel and Vacations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Dating and Relationships</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">United States Travel Assn</category>
+    </item>
+    <item>
+      <title>Joe Jackson, Domineering Father of a Musical Dynasty, Dies at 89</title>
+      <link>https://www.nytimes.com/2018/06/27/obituaries/joseph-jackson-dies.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/06/27/obituaries/joseph-jackson-dies.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/06/27/obituaries/joseph-jackson-dies.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/06/28/obituaries/28JACKSON1/28JACKSON1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Joseph Jackson, father and manager of The Jackson Five, next to an Epic double platinum award, circa 1982.</media:description>
+      <media:credit>Michael Ochs Archives/Getty Images</media:credit>
+      <description>His son Michael called him &#x201C;a managerial genius,&#x201D; but his abusive behavior alienated Michael, Janet and the rest of his children.</description>
+      <dc:creator>DANIEL E. SLOTNIK</dc:creator>
+      <pubDate>Wed, 27 Jun 2018 22:00:19 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Jackson, Joseph</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Deaths (Obituaries)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Jackson, Michael</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Jackson Five</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Motown Records</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Child Abuse and Neglect</category>
+    </item>
+    <item>
+      <title>The Secret Life of Sven</title>
+      <link>https://www.nytimes.com/2018/06/26/theater/frozen-sven-reindeer-broadway.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/06/26/theater/frozen-sven-reindeer-broadway.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/06/26/theater/frozen-sven-reindeer-broadway.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/06/24/arts/24sven3/merlin_137064246_710c84c2-2621-4538-83f4-255fbb0abbe5-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit/>
+      <description>How a onetime acrobat and a &#x201C;Lion King&#x201D; puppet designer brought a speechless reindeer to life in Disney&#x2019;s stage adaptation of &#x201C;Frozen&#x201D; on Broadway.</description>
+      <dc:creator>MICHAEL PAULSON and KARSTEN MORAN</dc:creator>
+      <pubDate>Tue, 26 Jun 2018 19:37:40 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Theater</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Frozen (Play)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Disney, Walt, Theatrical Productions</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Curry, Michael</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Pirozzi, Andrew</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Costumes</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Puppets</category>
+    </item>
+    <item>
+      <title>Talk: Why Richard Painter Felt the Need to Switch Parties</title>
+      <link>https://www.nytimes.com/2018/06/27/magazine/why-richard-painter-felt-the-need-to-switch-parties.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/06/27/magazine/why-richard-painter-felt-the-need-to-switch-parties.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/06/27/magazine/why-richard-painter-felt-the-need-to-switch-parties.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/07/01/magazine/01mag-Talk-image1/01mag-Talk-image1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Richard Painter</media:description>
+      <media:credit>Jenn Ackerman for The New York Times</media:credit>
+      <description>The ethics lawyer on Watergate, whether Al Franken was treated fairly and the most unethical person in the Trump administration.</description>
+      <dc:creator>Interview by DAN AMIRA</dc:creator>
+      <pubDate>Wed, 27 Jun 2018 09:00:06 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Ethics and Official Misconduct</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
+    </item>
+    <item>
+      <title>Critic&#x2019;s Notebook: Sleights of Hand With Cards, Coins and a Colander</title>
+      <link>https://www.nytimes.com/2018/06/26/theater/joshua-jay-vitaly-beckman-magic.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/06/26/theater/joshua-jay-vitaly-beckman-magic.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/06/26/theater/joshua-jay-vitaly-beckman-magic.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/06/27/arts/27magic/merlin_139586517_8a7513c3-be16-4daf-8fa5-334a432801f6-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Joshua Jay in &#x201C;Six Impossible Things.&#x201D;</media:description>
+      <media:credit>Mathew Gilmore</media:credit>
+      <description>The magicians Joshua Jay and Vitaly Beckman, both in one-man shows in Manhattan, are exploring uses of enchantment. And kitchen supplies.</description>
+      <dc:creator>ALEXIS SOLOSKI</dc:creator>
+      <pubDate>Tue, 26 Jun 2018 17:24:36 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Magic and Magicians</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Jay, Joshua (1981- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Beckman, Vitaly</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Vitaly: An Evening of Wonders (Play)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Six Impossible Things (Play)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Theater</category>
+    </item>
+    <item>
+      <title>Staying in the (Fashion) Moment</title>
+      <link>https://www.nytimes.com/2018/06/27/fashion/mens-fashion-week-moments.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/06/27/fashion/mens-fashion-week-moments.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/06/27/fashion/mens-fashion-week-moments.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/06/28/fashion/28paris1/28paris1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>At the Rick Owens spring 2019 men's wear show in Paris.</media:description>
+      <media:credit>Valerio Mezzanotti for The New York Times</media:credit>
+      <description>The monthlong men&#x2019;s wear season, with stops in Florence, Milan and Paris, may not be hanging together thematically. But in terms of moments, it has provided some doozies.</description>
+      <dc:creator>GUY TREBAY</dc:creator>
+      <pubDate>Wed, 27 Jun 2018 19:25:30 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Fashion and Apparel</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Men's Fashion Week</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Milan (Italy)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Paris (France)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Ermenegildo Zegna Holditalia SpA</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Versace, Gianni, SpA</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Dior Men</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Balmain</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Roberto Cavalli SpA</category>
+    </item>
+    <item>
+      <title>State of the Art: We Have Reached Peak Screen. Now Revolution Is in the Air.</title>
+      <link>https://www.nytimes.com/2018/06/27/technology/peak-screen-revolution.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/06/27/technology/peak-screen-revolution.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/06/27/technology/peak-screen-revolution.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/06/28/business/28STATEIllo/merlin_140334753_1fc5b9c0-5457-40c5-9f52-dacea8738742-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit>Doug Chayka</media:credit>
+      <description>With smartphones, everything digital has been managed through screens. Now that all of our visual capacity has been captured, the tech giants are starting to build a less eyes-only world.</description>
+      <dc:creator>FARHAD MANJOO</dc:creator>
+      <pubDate>Wed, 27 Jun 2018 21:15:37 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Smartphones</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Computers and the Internet</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Computer Monitors</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Wearable Computing</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Watches and Clocks</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Headphones and Headsets</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Apple Inc</category>
+    </item>
+    <item>
+      <title>Global Health: As an H.I.V. Prevention Drug Surged in Australia, Condom Use Fell</title>
+      <link>https://www.nytimes.com/2018/06/11/health/hiv-aids-condoms-prep.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/06/11/health/hiv-aids-condoms-prep.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/06/11/health/hiv-aids-condoms-prep.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/06/12/science/12SCI-GLOBAL/12SCI-GLOBAL-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Increasing use of Truvada was linked to declining rates of H.I.V. infection, researchers found, but also to decreased use of condoms.</media:description>
+      <media:credit>Thor Swift for The New York Times</media:credit>
+      <description>Infection rates declined despite a rise in unprotected sex, suggesting widespread use of the drug may mitigate the effects of riskier behavior.</description>
+      <dc:creator>EMILY BAUMGAERTNER</dc:creator>
+      <pubDate>Wed, 27 Jun 2018 15:30:45 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Acquired Immune Deficiency Syndrome</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Condoms</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Australia</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Homosexuality and Bisexuality</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Drugs (Pharmaceuticals)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_keyword">PrEP</category>
+    </item>
+    <item>
+      <title>Nonfiction: Must Science Conflict With Spirituality?</title>
+      <link>https://www.nytimes.com/2018/06/25/books/review/alan-lightman-searching-for-stars-on-an-island-in-maine.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/06/25/books/review/alan-lightman-searching-for-stars-on-an-island-in-maine.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/06/25/books/review/alan-lightman-searching-for-stars-on-an-island-in-maine.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/07/01/books/review/01Shermer/17Shermer-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit>Chlo&#xE9; Poizat</media:credit>
+      <description>The astrophysicist and novelist Alan Lightman doesn&#x2019;t think so. And his new book, &#x201C;Searching for Stars on an Island in Maine,&#x201D; explains why.</description>
+      <dc:creator>MICHAEL SHERMER</dc:creator>
+      <pubDate>Mon, 25 Jun 2018 09:00:05 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Books and Literature</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Searching for Stars on an Island in Maine (Book)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Lightman, Alan</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Space and Astronomy</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Religion and Belief</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Science and Technology</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Maine</category>
+    </item>
+    <item>
+      <title>ScienceTake: How Spiders Fly</title>
+      <link>https://www.nytimes.com/2018/06/26/science/spiders-ballooning-wind.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/06/26/science/spiders-ballooning-wind.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/06/26/science/spiders-ballooning-wind.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <description>Gossamer strands of spider silk serve as balloons to carry spiders far afield.</description>
+      <dc:creator>JAMES GORMAN</dc:creator>
+      <pubDate>Tue, 26 Jun 2018 19:28:17 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Spiders</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Technical University</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Animal Behavior</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Physics</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Cho, Moonsung</category>
+    </item>
+  </channel>
+</rss>
