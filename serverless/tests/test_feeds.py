@@ -1,4 +1,4 @@
-from serverless.feeds import ingest_rss, discover_feed
+from feeds import ingest_rss, discover_feed
 
 from tests.conftest import PAGE_FILE, FEED_FILE
 

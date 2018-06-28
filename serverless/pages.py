@@ -9,7 +9,7 @@ import validators
 from bs4.dammit import EncodingDetector
 from feedfinder2 import find_feeds
 
-from serverless import utils
+import utils
 
 def extract_content(html):
 	return 'TODO!'

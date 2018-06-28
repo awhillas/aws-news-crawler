@@ -1,16 +1,17 @@
-import cProfile
-import io
-import os
-import pstats
+# import cProfile
+# import io
+# import os
+# import pstats
 
 import boto3
 import pytest
 from lxml.html.diff import htmldiff
 
 import responses
-import serverless.pages as pages
 from moto import mock_s3
-from serverless import utils
+
+import pages
+import utils
 from tests.conftest import FEED_URL, PAGE_BUCKET, PAGE_FILE, PAGE_URL
 
 

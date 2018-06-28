@@ -9,7 +9,7 @@ import boto3
 import validators
 from url_normalize import url_normalize
 
-from . import feeds, pages, utils
+import feeds, pages, utils
 
 logger = logging.getLogger('HANDLER')
 
