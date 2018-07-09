@@ -6,7 +6,6 @@ name = "pypi"
 [packages]
 boto3 = "*"
 bs4 = "*"
-lxml = "*"
 feedfinder2 = "*"
 feedparser = "*"
 readability-lxml = "*"
@@ -14,14 +13,7 @@ requests = "*"
 url-normalize = "*"
 user-agent = "*"
 validators = "*"
-
-# Dragnet dependancies
-#Cython = ">=0.21.1"
-#scikit-learn = "*"
-#numpy = "*"
-#scipy = "*"
-#ftfy = ">=4.1.0,<5.0.0"
-#dragnet = {git = "https://github.com/seomoz/dragnet.git"}
+"html5lib" = "*"
 
 [dev-packages]
 ipython = "*"
@@ -31,6 +23,7 @@ pytest-env = "*"
 rope = "*"
 moto = "*"
 responses = "*"
+lxml = "*"
 
 [requires]
 python_version = "3.6"

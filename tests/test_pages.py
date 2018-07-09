@@ -31,7 +31,7 @@ def test_ingest_page(urls):
 	with open(PAGE_FILE) as f:
 		assert htmldiff(html, f.read())
 	content = s3.Object(PAGE_BUCKET, 'content/{}'.format(safe_key)).get()['Body'].read().decode("utf-8")
-
+	assert False
 	assert content == 'TODO!'
 
 def test_extract_content():

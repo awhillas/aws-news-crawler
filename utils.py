@@ -68,11 +68,7 @@ def dynamodb_get(url):
 	dynamodb = boto3.resource('dynamodb')
 	table = dynamodb.Table(os.environ.get('DYNAMODB_TABLE'))
 	# fetch record from the database
-	result = table.get_item(
-		Key={
-			'url':url
-		}
-	)
+	result = table.get_item(Key={ 'url': url })
 	print(">>>>>> dynamodb_get", pformat(result))
 	return result['Item'] if 'Item' in result else False
 
@@ -82,7 +78,7 @@ def dynamodb_create(url, lang):
 
 	timestamp = int(time.time() * 1000)
 	item = {
-		'id': url,
+		'url': url,
 		'language': lang,
 		'addedAt': timestamp,
 		'lastCheckedAt': timestamp,

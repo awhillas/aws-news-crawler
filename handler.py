@@ -28,7 +28,7 @@ def add_url(event, context):
 		url = url_normalize(url)
 		if not utils.dynamodb_get(url):
 			utils.dynamodb_create(url, 'xx')
-			logger.info('add_url: {}'.format(url))
+			print('add_url: {}'.format(url))
 			return utils.sqs_send(boto3.client('sqs'), url)
 		else:
 			return {
@@ -38,7 +38,7 @@ def add_url(event, context):
 	else:
 		return {
 			"statusCode": 400,
-			"body": "no 'url' in given JSON?",
+			"body": "Bad 'url' in given JSON?",
 		}
 
 
