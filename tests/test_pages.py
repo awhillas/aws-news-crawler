@@ -10,8 +10,8 @@ from lxml.html.diff import htmldiff
 import responses
 from moto import mock_s3
 
-import pages
-import utils
+import src.pages as pages
+import src.utils as utils
 from tests.conftest import FEED_URL, PAGE_BUCKET, PAGE_FILE, PAGE_URL
 
 

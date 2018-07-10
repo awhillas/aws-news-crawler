@@ -5,7 +5,7 @@ import responses
 import boto3
 from moto import mock_s3
 
-import pages
+import src.pages as pages
 
 
 PAGE_URL = 'http://example.com'

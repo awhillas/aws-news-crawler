@@ -24,7 +24,7 @@ node_modules/
 
 # Python
 .pytest_cache/
-
+requirements.txt
 
 # IDE
 .vscode/

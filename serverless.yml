@@ -65,7 +65,7 @@ functions:
   # RSS Feed queue + consumer
 
   addRssEndPoint:
-    handler: handler.add_url
+    handler: src.handler.add_url
     description: Web interface to add an RSS feed to the RSS Processing Queue via API Gateway
     events:
       - http:
@@ -77,7 +77,7 @@ functions:
       DYNAMODB_TABLE: ${self:custom.dynamodbFeedTable}
 
   pollRssQueue:
-    handler: handler.poll_url_queue
+    handler: src.handler.poll_url_queue
     description: Polls the RssQueue for new urls and dispatches a onNewRss SNS event
     events:
       - schedule: rate(1 minute)
@@ -87,7 +87,7 @@ functions:
       TOPIC_ARN: { "Fn::Join" : ["", ["arn:aws:sns:${self:provider.region}:", { "Ref" : "AWS::AccountId" }, ":${self:custom.onAddRssTopic}" ] ]  }
 
   ingestRss:
-    handler: handler.ingest_rss
+    handler: src.handler.ingest_rss
     description: Processes the RSS URL adding the pages to the PageQueue for page ingestion
     events:
       - sns: ${self:custom.onAddRssTopic}
@@ -98,7 +98,7 @@ functions:
   # Page Feed queue + consumer
 
   addPageEndPoint:
-    handler: handler.add_url
+    handler: src.handler.add_url
     description: Web interface to add an RSS feed to the RSS Processing Queue via API Gateway
     events:
       - http:
@@ -110,7 +110,7 @@ functions:
       DYNAMODB_TABLE: "${self:custom.dynamodbPageTable}"
 
   addPage:
-    handler: handler.add_url_sns
+    handler: src.handler.add_url_sns
     description: Web interface to add an RSS feed to the RSS Processing Queue via SNS
     events:
       - http:
@@ -122,7 +122,7 @@ functions:
       DYNAMODB_TABLE: "${self:custom.dynamodbPageTable}"
 
   pollPageQueue:
-    handler: handler.poll_url_queue
+    handler: src.handler.poll_url_queue
     description: Polls the PageQueue for new urls and dispatches a onNewRss SNS event
     events:
       - schedule: rate(1 minute)
@@ -132,13 +132,13 @@ functions:
       TOPIC_ARN: { "Fn::Join" : ["", ["arn:aws:sns:${self:provider.region}:", { "Ref" : "AWS::AccountId" }, ":${self:custom.onAddPageTopic}" ] ]  }
 
   ingestPage:
-    handler: handler.ingest_page
+    handler: src.handler.ingest_page
     description: Processes the Webpage URL adding the pages to S3 for further processing (Spark?)
     events:
       - sns: ${self:custom.onAddPageTopic}
 
   processPage:
-    handler: handler.process_page
+    handler: src.handler.process_page
     events:
       - s3:
           bucket: ${self:custom.pageBucket}

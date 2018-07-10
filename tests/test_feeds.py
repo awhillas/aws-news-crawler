@@ -1,4 +1,4 @@
-from feeds import ingest_rss, discover_feed
+from src.feeds import ingest_rss, discover_feed
 
 from tests.conftest import PAGE_FILE, FEED_FILE
 

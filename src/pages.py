@@ -3,14 +3,14 @@ from pprint import pprint as pp
 from urllib.parse import urlparse
 
 import boto3
-import lxml.html
+# import lxml.html
 import requests
 import validators
 from bs4 import BeautifulSoup
 # from bs4.dammit import EncodingDetector
 from feedfinder2 import find_feeds
 
-import utils
+import src.utils as utils
 
 def extract_content(html):
 	return 'TODO!'

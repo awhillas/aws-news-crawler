@@ -7,7 +7,7 @@ import json
 from moto import mock_dynamodb2 as mock_dynamodb
 from moto.dynamodb2 import dynamodb_backend2 as dynamodb_backend
 
-import handler
+import src.handler as handler
 
 
 def test_add_url_no_body_in_event():
