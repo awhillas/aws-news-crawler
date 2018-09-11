@@ -1,11 +1,16 @@
-from src.feeds import ingest_rss, discover_feed
+# Mocking libs
+import responses
+from moto import mock_s3
 
+from src.feeds import ingest_rss, discover_feed
 from tests.conftest import PAGE_FILE, FEED_FILE
 
 
 def test_ingest_rss():
 	with open(FEED_FILE) as f:
 		pages = ingest_rss(f.read())
+
+	assert len(pages) == 53
 	assert pages[0] == 'https://www.nytimes.com/2018/06/27/us/politics/anthony-kennedy-retire-supreme-court.html?partner=rss&emc=rss'
 	assert pages[-1] == 'https://www.nytimes.com/2018/06/26/science/spiders-ballooning-wind.html?partner=rss&emc=rss'
 

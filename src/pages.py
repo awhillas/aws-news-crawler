@@ -1,67 +1,62 @@
+import logging
 import os
 from pprint import pprint as pp
 from urllib.parse import urlparse
 
 import boto3
-# import lxml.html
 import requests
+import src.utils as utils
 import validators
 from bs4 import BeautifulSoup
-# from bs4.dammit import EncodingDetector
 from feedfinder2 import find_feeds
+import bs4 as BeautifulSoup
 
-import src.utils as utils
+logger = logging.getLogger('HANDLER')
+
 
 def extract_content(html):
-	return 'TODO!'
+	""" TODO: Auto content detection
+	"""
+	return html
 
 def ingest_page(url):
-	""" TODO: Download the page and detect content
+	""" TODO: get date of article so we can cluster content by day
 	"""
-	s3 = boto3.resource('s3')
-	bucket = os.environ.get('PAGE_BUCKET')
-
 	print(">>>>>>> ingest_page", url)
 
-	# This thanks to https://stackoverflow.com/a/22583436/196732
+	# Get main content
+
 	resp = requests.get(url)
-	# html5lib handles encoding detection...
-	# http_encoding = resp.encoding if 'charset' in resp.headers.get('content-type', '').lower() else None
-	# html_encoding = EncodingDetector.find_declared_encoding(resp.content, is_html=True)
-	# encoding = html_encoding or http_encoding
-	# print(">>>>>> ENCODING:", encoding, resp.text[:100])
+	soup = BeautifulSoup.BeautifulSoup(resp.content, 'html5lib')
 
-	# Parse the dirty HTML, clean and save it to s3
+	# Remove nodes that have text content but do not contribute to the content we're interested in.
+	# SVG is just bulky and obviously not relevant.
+	for tag in ['script', 'noscript', 'style', 'svg', 'figcaption']:
+		for s in soup(tag):
+			s.extract()
 
-	# dom =  lxml.html.fromstring(resp.content)
-	# clean_html = lxml.html.tostring(dom)
-	soup = BeautifulSoup(resp.content, 'html5lib')
-	clean_html = soup.prettify()
-	safe_key = utils.s3_key_name_sanitiser(url)
-	s3.Bucket(bucket).put_object(Key="raw/{}".format(safe_key), Body=clean_html)
+	html = soup.prettify()
+	# html = extract_content(html)
 
 	# Get links to spider
 
 	links = set()
 	this_domain = urlparse(url).netloc
-	hrefs = set()
 	for link in soup.find_all('a', href=True):
 		href = link.get('href')
-		hrefs.add(href)
-		# TODO: send links to feed discovery
 		if validators.url(href):
+			# We're only interested in domains for now, assume 1 RSS feed per domain.
 			domain = urlparse(href).netloc
-			if not domain == this_domain and not any((domain in href for domain in ['facebook.com', 'twitter.com'])):
-				links.add(domain)
-	pp(links)
-	pp(hrefs)
+			if not domain == this_domain and not any((domain in href for domain in ['facebook.com', 'twitter.com', 'youtube.com', 'instagram.com'])):
+				links.add("http://{}".format(domain))
 
-	# Get main content
-
-	content = extract_content(clean_html)
-	s3.Bucket(bucket).put_object(Key="content/{}".format(safe_key), Body=content)
+	return html, links
 
 
 def process_page(bucket_arn, file_key):
-	""" Starting point for NLP """
-	pass
+	""" Starting point for NLP
+		- Content extraction?
+		- language detection
+		- Author detection
+	"""
+	logger.debug(">>>>> process_page(bucket_arn={}, file_key={})".format(bucket_arn, file_key))

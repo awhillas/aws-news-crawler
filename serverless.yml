@@ -1,6 +1,7 @@
-service: aws-news-crawler
+service: news-crawler
 
-frameworkVersion: ">=1.24.1 <2.0.0"
+# Need SQS event triggers for lambdas
+frameworkVersion: ">=1.28.0 <2.0.0"
 
 plugins:
   - serverless-offline-python
@@ -12,23 +13,51 @@ provider:
   runtime: python3.6
   stage: ${opt:stage, self:custom.defaultStage}
   profile: ${self:custom.profiles.${self:provider.stage}}
+  deploymentBucket: mnd-serverless-deploys-${self:provider.stage}
 
   tags:
     owner: alexander.whillas@mynewsdesk.com
-    project: mnd-crawler
+    project: mnd-news-crawler
 
   environment:
-    PAGE_BUCKET: "${self:custom.pageBucket}"
+    PAGE_BUCKET: "${self:custom.pagesBucket}"
+    PAGE_ADD_TOPIC:
+      Fn::Join:
+        - ":"
+        - - "arn:aws:sns"
+          - Ref: "AWS::Region"
+          - Ref: "AWS::AccountId"
+          - ${self:custom.onAddPageTopic}
+    RSS_ADD_TOPIC:
+      Fn::Join:
+        - ":"
+        - - "arn:aws:sns"
+          - Ref: "AWS::Region"
+          - Ref: "AWS::AccountId"
+          - ${self:custom.onAddRssTopic}
+    DISCOVER_ADD_TOPIC:
+      Fn::Join:
+        - ":"
+        - - "arn:aws:sns"
+          - Ref: "AWS::Region"
+          - Ref: "AWS::AccountId"
+          - ${self:custom.onAddDiscoverTopic}
+    DISCOVER_QUEUE_URL:
+      Ref: DiscoverQueue
 
   iamRoleStatements:
     - Effect: Allow
       Action:
         - SNS:Publish
-      Resource: { "Fn::Join" : ["", ["arn:aws:sns:${self:provider.region}:", { "Ref" : "AWS::AccountId" }, ":${self:custom.onAddRssTopic}" ] ]  }
+      Resource: { "Fn::Join" : [":", ["arn:aws:sns:${self:provider.region}", { "Ref" : "AWS::AccountId" }, "${self:custom.onAddRssTopic}" ] ]  }
     - Effect: Allow
       Action:
         - SNS:Publish
-      Resource: { "Fn::Join" : ["", ["arn:aws:sns:${self:provider.region}:", { "Ref" : "AWS::AccountId" }, ":${self:custom.onAddPageTopic}" ] ]  }
+      Resource: { "Fn::Join" : [":", ["arn:aws:sns:${self:provider.region}", { "Ref" : "AWS::AccountId" }, "${self:custom.onAddPageTopic}" ] ]  }
+    - Effect: Allow
+      Action:
+        - SNS:Publish
+      Resource: { "Fn::Join" : [":", ["arn:aws:sns:${self:provider.region}", { "Ref" : "AWS::AccountId" }, "${self:custom.onAddDiscoverTopic}" ] ]  }
     - Effect: Allow
       Action:
         - sqs:*
@@ -41,8 +70,13 @@ provider:
         Fn::GetAtt: [ PageQueue, Arn ]
     - Effect: Allow
       Action:
+        - sqs:*
+      Resource:
+        Fn::GetAtt: [ DiscoverQueue, Arn ]
+    - Effect: Allow
+      Action:
         - s3:*
-      Resource: "arn:aws:s3:::${self:custom.pageBucket}"
+      Resource: "*"
     - Effect: Allow
       Action:
         - dynamodb:*
@@ -55,9 +89,11 @@ custom:
     prod: mnd-production
   onAddRssTopic: "${self:service}-on-add-rss-topic-${self:provider.stage}"
   onAddPageTopic: "${self:service}-on-add-page-topic-${self:provider.stage}"
-  pageBucket: "mnd-${self:service}-pages-${opt:stage, self:provider.stage}"
+  onAddDiscoverTopic: "${self:service}-on-add-discover-topic-${self:provider.stage}"
   dynamodbFeedTable: "mnd-${self:service}-rss-urls-${opt:stage, self:provider.stage}"
   dynamodbPageTable: "mnd-${self:service}-page-urls-${opt:stage, self:provider.stage}"
+  dynamodbDiscoverTable: "mnd-${self:service}-discover-urls-${opt:stage, self:provider.stage}"
+  pagesBucket: "mnd-${self:service}-${self:provider.stage}"
 
 #   addUrlEndPoint > {Rss,Page}Queue (SQS) < pollUrlQueue > ingest{Rss,Page}
 functions:
@@ -65,7 +101,7 @@ functions:
   # RSS Feed queue + consumer
 
   addRssEndPoint:
-    handler: src.handler.add_url
+    handler: src.handler.add_url_http
     description: Web interface to add an RSS feed to the RSS Processing Queue via API Gateway
     events:
       - http:
@@ -76,30 +112,78 @@ functions:
         Ref: RssQueue
       DYNAMODB_TABLE: ${self:custom.dynamodbFeedTable}
 
-  pollRssQueue:
-    handler: src.handler.poll_url_queue
-    description: Polls the RssQueue for new urls and dispatches a onNewRss SNS event
+  addRssSns:
+    handler: src.handler.add_url_sns
+    description: SNS interface to add an RSS feed to the RSS Processing Queue via SNS topic
     events:
-      - schedule: rate(1 minute)
+      - sns: ${self:custom.onAddRssTopic}
     environment:
       QUEUE_URL:
         Ref: RssQueue
-      TOPIC_ARN: { "Fn::Join" : ["", ["arn:aws:sns:${self:provider.region}:", { "Ref" : "AWS::AccountId" }, ":${self:custom.onAddRssTopic}" ] ]  }
+      DYNAMODB_TABLE: "${self:custom.dynamodbFeedTable}"
 
   ingestRss:
     handler: src.handler.ingest_rss
     description: Processes the RSS URL adding the pages to the PageQueue for page ingestion
     events:
-      - sns: ${self:custom.onAddRssTopic}
+      - sqs:
+          arn:
+            Fn::GetAtt:
+              - RssQueue
+              - Arn
+          batchSize: 10
+
+  addAggregateRssEndPoint:
+    handler: src.handler.ingest_aggregator_rss_http
+    description: Web interface to add an Aggregator RSS feed to the RSS Processing Queue via API Gateway
+    events:
+      - http:
+          path: add_agg_rss
+          method: post
     environment:
       QUEUE_URL:
-        Ref: PageQueue
+        Ref: RssQueue
+      DYNAMODB_TABLE: ${self:custom.dynamodbFeedTable}
 
-  # Page Feed queue + consumer
+  # Discover queue + consumer
+
+  addDiscoverEndPoint:
+    handler: src.handler.add_url_http
+    description: Web interface to add a Page to the Discover Processing Queue via API Gateway
+    events:
+      - http:
+          path: add_page
+          method: post
+    environment:
+      QUEUE_URL:
+        Ref: DiscoverQueue
+      DYNAMODB_TABLE: "${self:custom.dynamodbDiscoverTable}"
+
+  addDiscoverSns:
+    handler: src.handler.add_url_sns
+    description: SNS interface to add a Page to the Discover Processing Queue via SNS topic
+    events:
+      - sns: ${self:custom.onAddDiscoverTopic}
+    environment:
+      QUEUE_URL:
+        Ref: DiscoverQueue
+      DYNAMODB_TABLE: "${self:custom.dynamodbDiscoverTable}"
+
+  discoverFeeds:
+    handler: src.handler.discover_feeds
+    events:
+      - sqs:
+          arn:
+            Fn::GetAtt:
+              - DiscoverQueue
+              - Arn
+          batchSize: 10
+
+  # Page queue + consumer
 
   addPageEndPoint:
-    handler: src.handler.add_url
-    description: Web interface to add an RSS feed to the RSS Processing Queue via API Gateway
+    handler: src.handler.add_url_http
+    description: Web interface to add a Page to the Page Processing Queue via API Gateway
     events:
       - http:
           path: add_page
@@ -109,49 +193,45 @@ functions:
         Ref: PageQueue
       DYNAMODB_TABLE: "${self:custom.dynamodbPageTable}"
 
-  addPage:
+  addPageSns:
     handler: src.handler.add_url_sns
-    description: Web interface to add an RSS feed to the RSS Processing Queue via SNS
+    description: SNS interface to add an Page to the Page Processing Queue via SNS topic
     events:
-      - http:
-          path: add_page
-          method: post
+      - sns: ${self:custom.onAddPageTopic}
     environment:
       QUEUE_URL:
         Ref: PageQueue
       DYNAMODB_TABLE: "${self:custom.dynamodbPageTable}"
-
-  pollPageQueue:
-    handler: src.handler.poll_url_queue
-    description: Polls the PageQueue for new urls and dispatches a onNewRss SNS event
-    events:
-      - schedule: rate(1 minute)
-    environment:
-      QUEUE_URL:
-        Ref: PageQueue
-      TOPIC_ARN: { "Fn::Join" : ["", ["arn:aws:sns:${self:provider.region}:", { "Ref" : "AWS::AccountId" }, ":${self:custom.onAddPageTopic}" ] ]  }
 
   ingestPage:
     handler: src.handler.ingest_page
     description: Processes the Webpage URL adding the pages to S3 for further processing (Spark?)
     events:
-      - sns: ${self:custom.onAddPageTopic}
+      - sqs:
+          arn:
+            Fn::GetAtt:
+              - PageQueue
+              - Arn
+          batchSize: 10
 
   processPage:
     handler: src.handler.process_page
     events:
       - s3:
-          bucket: ${self:custom.pageBucket}
+          bucket: ${self:custom.pagesBucket}
           event: s3:ObjectCreated:*
-          rules:
-            - suffix: .html
+
 
 resources:
+  Description: Lambda/SQS based web crawler that discovers RSS feeds and downloads the pages to S3
   Resources:
     RssQueue:
       Type: AWS::SQS::Queue
 
     PageQueue:
+      Type: AWS::SQS::Queue
+
+    DiscoverQueue:
       Type: AWS::SQS::Queue
 
     FeedsDynamoDbTable:
@@ -167,8 +247,8 @@ resources:
             AttributeName: url
             KeyType: HASH
         ProvisionedThroughput:
-          ReadCapacityUnits: 1
-          WriteCapacityUnits: 1
+          ReadCapacityUnits: 2
+          WriteCapacityUnits: 2
         TableName: "${self:custom.dynamodbFeedTable}"
 
     PagesDynamoDbTable:
@@ -184,6 +264,25 @@ resources:
             AttributeName: url
             KeyType: HASH
         ProvisionedThroughput:
-          ReadCapacityUnits: 1
-          WriteCapacityUnits: 1
+          ReadCapacityUnits: 10
+          WriteCapacityUnits: 10
         TableName: "${self:custom.dynamodbPageTable}"
+
+    DiscoverDynamoDbTable:
+      Type: 'AWS::DynamoDB::Table'
+      DeletionPolicy: Retain
+      Properties:
+        AttributeDefinitions:
+          -
+            AttributeName: url
+            AttributeType: S
+        KeySchema:
+          -
+            AttributeName: url
+            KeyType: HASH
+        ProvisionedThroughput:
+          ReadCapacityUnits: 10
+          WriteCapacityUnits: 10
+        TableName: "${self:custom.dynamodbDiscoverTable}"
+
+

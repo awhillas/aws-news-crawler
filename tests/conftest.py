@@ -10,10 +10,9 @@ import src.pages as pages
 
 PAGE_URL = 'http://example.com'
 PAGE_FILE = 'tests/data/nytimes.com.html'
-PAGE_BUCKET = os.environ.get('PAGE_BUCKET')
 FEED_URL = PAGE_URL + '/nytimes.rss.xml'
 FEED_FILE = 'tests/data/nytimes.rss.xml'
-
+PAGE_BUCKET = os.environ.get('PAGE_BUCKET')
 
 
 @pytest.fixture(params=[{PAGE_URL: PAGE_FILE, FEED_URL: FEED_FILE}])
